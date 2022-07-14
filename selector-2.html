@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color:Green;
+        }
+        div > div {
+            background-color: plum;
+        }
+        .es{
+            background-color: aqua;
+        }
+        div + section{
+            background-color:blue;
+        }
+        div ~ p {
+                color:saddlebrown
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Platzi</p>
+            <p> Otro parrafo en el mismo div</p>
+            <div class="es"> div dentro de dos div</div>
+        </div>
+    </div>
+    <p>Clase de selectores </p>
+    <section>Master en section seguido a div</section>
+    <div>
+        Master
+    </div>
+    
+</body>
+</html>
