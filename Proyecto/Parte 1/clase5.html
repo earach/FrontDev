@@ -54,17 +54,10 @@
             font-weight: bold;
             margin-bottom: 4px;
         }
-        .input{
-            background-color: var(--text);
-            border: none;
-            border-radius: 8px;
-            height: 32px;
+        .value{
+            color:var(--pink);
             font-size: var(--md);
-            padding: 6px;
-            margin-bottom: 12px;
-        }
-        .input-name, .input-email, .input-password{
-            margin-bottom: 22px;
+            margin:8px 0px 32px 0px;
         }
         .login-button{
             margin-top: 14px;
@@ -110,14 +103,15 @@
 
             <form action="/" class="form">
                 <div>
+                    
                     <label for="name" class="label"> Name</label>
-                    <input type="text" id="name" placeholder="Ezequiel" class="input input-name">
-                
+                    <p class="value">Ezequiel</p>
+                    
                     <label for="email" class="label"> Email address</label>
-                    <input type="text" id="email" placeholder="eze.arach@gmail.com" class="input input-email">
+                    <p class="value">eze.arach@gmail.com</p>
 
                     <label for="new-password" class="label"> Password</label>
-                    <input type="password" id="new-password" placeholder="*********" class="input input-password">
+                    <p class="value">"*********"</p>
                 </div>  
                 <div>
                     <input type="submit" name="" id="" value="Edit" class="seconday-button edit-button">
